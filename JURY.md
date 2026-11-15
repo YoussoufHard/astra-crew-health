@@ -2,10 +2,9 @@
 
 ## Links
 
-- Application: https://youssoufhard.github.io/astra-crew-health/
-- Alternate application: https://astra-crew-health-casablanca.speckledmonad16.chatgpt.site
-- Seven-slide PDF: https://youssoufhard.github.io/astra-crew-health/presentation/ASTRA-Presentation.pdf
-- GitHub PDF viewer: https://github.com/YoussoufHard/astra-crew-health/blob/main/presentation/ASTRA-Presentation.pdf
+- Application: https://astra-crew-health-casablanca.speckledmonad16.chatgpt.site
+- Seven-slide PDF: https://github.com/YoussoufHard/astra-crew-health/blob/main/presentation/ASTRA-Presentation.pdf
+- Direct PDF file: https://raw.githubusercontent.com/YoussoufHard/astra-crew-health/main/presentation/ASTRA-Presentation.pdf
 - Source: https://github.com/YoussoufHard/astra-crew-health
 
 ## Walkthrough

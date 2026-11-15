@@ -36,9 +36,8 @@ OpenAI Codex was used to assist product planning, interface copy, software imple
 No partner cloud credits, private astronaut records, NASA measurement datasets, external photographs, or third-party chart libraries were used. The body diagram and planet are code-drawn interface illustrations. List any additional resources the team adds before submitting. Verify font license information through the linked font pages if distributing copies of font files; this version only references the hosted stylesheet.
 
 # Public project links
-- Application: https://youssoufhard.github.io/astra-crew-health/
-- Alternate application: https://astra-crew-health-casablanca.speckledmonad16.chatgpt.site
-- Demonstration (seven-slide PDF): https://youssoufhard.github.io/astra-crew-health/presentation/ASTRA-Presentation.pdf
+- Application: https://astra-crew-health-casablanca.speckledmonad16.chatgpt.site
+- Demonstration (seven-slide PDF): https://github.com/YoussoufHard/astra-crew-health/blob/main/presentation/ASTRA-Presentation.pdf
 - PDF mirror: https://github.com/YoussoufHard/astra-crew-health/blob/main/presentation/ASTRA-Presentation.pdf
 - Source: https://github.com/YoussoufHard/astra-crew-health
 

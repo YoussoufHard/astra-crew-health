@@ -5,7 +5,6 @@ An explainable astronaut health-monitoring prototype for the 2026 Space Apps cha
 ## For the jury
 
 - **Open the application:** https://astra-crew-health-casablanca.speckledmonad16.chatgpt.site
-- **GitHub Pages application:** https://youssoufhard.github.io/astra-crew-health/
 - **Read the seven-slide presentation:** [PDF](presentation/ASTRA-Presentation.pdf)
 - **Download the editable presentation:** [PowerPoint](presentation/ASTRA-Presentation.pptx)
 - **Project explanation and resource use:** [Submission text](project/SUBMISSION.md)
@@ -13,6 +12,8 @@ An explainable astronaut health-monitoring prototype for the 2026 Space Apps cha
 - **Demo walkthrough:** [Jury guide](JURY.md)
 
 The presentation PDF is the submitted demonstration format. No video is required in addition under the submission instructions supplied to this project.
+
+The primary application link above is public. GitHub Pages is also configured, but it inherits an existing account custom domain whose HTTPS certificate is not yet available. Use the primary application link and the GitHub PDF link for judging.
 
 ## What works
 
