@@ -17,7 +17,7 @@ let records=read('astra-records',[]);if(!Array.isArray(records)||!records.every(
 let done=read('astra-tasks',[]);if(!Array.isArray(done))done=[];
 let scenario='nominal',metric='sleep';
 function persist(){try{localStorage.setItem('astra-records',JSON.stringify(records));localStorage.setItem('astra-tasks',JSON.stringify(done));return true;}catch{storageAvailable=false;toast('Storage unavailable. Data remains in memory for this session.');return false;}}
-function current(){const r={...(records.at(-1)||synthetic.at(-1))};if(scenario==='fatigue')Object.assign(r,{sleep:4.8,mood:2,hr:73});if(scenario==='review')Object.assign(r,{sleep:4.5,mood:2,hr:86,sys:143,dia:94,temp:37.7,glucose:126});if(scenario!=='nominal')Object.assign(r,{date:'Scenario',origin:'Simulated scenario',context:'Simulated resting observation',notes:''});return r;}
+function current(){const r={...(scenario==='nominal'?(records.at(-1)||synthetic.at(-1)):synthetic.at(-1))};if(scenario==='fatigue')Object.assign(r,{sleep:4.8,mood:2,hr:73});if(scenario==='review')Object.assign(r,{sleep:4.5,mood:2,hr:86,sys:143,dia:94,temp:37.7,glucose:126});if(scenario!=='nominal')Object.assign(r,{date:'Scenario',origin:'Simulated scenario',context:'Simulated resting observation',notes:''});return r;}
 function flagged(d,r){if(d.key==='sleep')return r.sleep<6.5;if(d.key==='mood')return r.mood<=2;if(d.key==='sys')return Math.abs(r.sys-d.baseline)>=d.tolerance||Math.abs(r.dia-76)>=15;return Math.abs(r[d.key]-d.baseline)+1e-9>=d.tolerance;}
 function format(d,r){return d.key==='sys'?`${r.sys}/${r.dia}`:Number(r[d.key]).toFixed(d.decimals);}
 function history(){const a=[...synthetic,...records];if(scenario!=='nominal')a.push({...current(),date:'Scenario',origin:'Simulated scenario'});return a;}

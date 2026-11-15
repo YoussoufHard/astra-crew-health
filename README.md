@@ -13,9 +13,12 @@ An explainable astronaut health-monitoring prototype for the 2026 Space Apps cha
 
 The presentation PDF is the submitted demonstration format. No video is required in addition under the submission instructions supplied to this project.
 
-The primary application link above is public. GitHub Pages is also configured, but it inherits an existing account custom domain whose HTTPS certificate is not yet available. Use the primary application link and the GitHub PDF link for judging.
+Use the public application link and the GitHub presentation links above for judging.
 
 ## What works
+
+A seven-step guided demo walks visitors through the overview, a sleep disruption scenario, trend interpretation, manual check-in, daily routine, report export and NASA sources. It never automatically saves a check-in or changes checklist progress. Exiting restores the previous view and scenario.
+
 
 ASTRA presents six manual health indicators, interactive historical trends, a body-system selector and explained demonstration flags. A daily checklist supports a consistent routine. The browser saves manual entries locally and can download a JSON report containing provenance, rules and NASA references.
 

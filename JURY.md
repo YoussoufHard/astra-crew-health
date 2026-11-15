@@ -9,6 +9,8 @@
 
 ## Walkthrough
 
+For an in-app walkthrough, select **Guided demo** in the header. Seven steps show the scenario, explanations, trend, check-in, daily routine, report and NASA resources. The tour does not automatically save observations or change checklist progress. Exit restores your previous view and scenario.
+
 1. Open Overview. Read the synthetic-data disclosure and inspect the six indicators.
 2. Select **Sleep disruption**. Sleep changes to 4.8 hours, compared with a fictional baseline of 7.5 hours. Mood also changes.
 3. Select the sleep card. Inspect the synthetic trend and the written demonstration rule.
