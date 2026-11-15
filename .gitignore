@@ -1,0 +1,10 @@
+.env
+.env.*
+node_modules/
+.openai/
+.codex/
+.agents/
+__pycache__/
+*.log
+*.tar.gz
+*.zip
