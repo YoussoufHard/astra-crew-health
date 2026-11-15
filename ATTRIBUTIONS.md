@@ -17,4 +17,4 @@ Use: educational taxonomy and explanations. No NASA clinical dataset, logo or en
 - OpenAI Sites: https://openai.com/ - initial application hosting.
 - GitHub and GitHub Pages: https://github.com/ - source, presentation hosting and static application hosting.
 
-No external photographs, audio, video, chart library, real astronaut measurements or partner cloud credits are used. The app body diagram and planet are code-drawn interface elements. The slides contain an editable chart of synthetic observations.
+No external photographs, audio, video, chart library, real astronaut measurements or partner cloud credits are used. The app body diagram and planet are code-drawn interface elements. The slides include real browser captures of the application using synthetic observations. The sleep-trend capture shows 6.2 hours against a fictional 7.5-hour baseline. These captures are screenshots of the implemented interface, not generated depictions of an application.

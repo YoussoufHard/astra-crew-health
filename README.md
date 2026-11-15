@@ -11,7 +11,7 @@ An explainable astronaut health-monitoring prototype for the 2026 Space Apps cha
 - **Implementation plan and limitations:** [Plan](project/PLAN.md)
 - **Demo walkthrough:** [Jury guide](JURY.md)
 
-The presentation PDF is the submitted demonstration format. No video is required in addition under the submission instructions supplied to this project.
+The seven-slide presentation includes real application screenshots of the dashboard, sleep trend and daily protocol, with synthetic readings. It contains no team member list. The PDF is the demonstration format; no video is required in addition under the submission instructions supplied to this project.
 
 Use the public application link and the GitHub presentation links above for judging.
 
