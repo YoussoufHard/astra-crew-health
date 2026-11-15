@@ -19,6 +19,8 @@ The primary application link above is public. GitHub Pages is also configured, b
 
 ASTRA presents six manual health indicators, interactive historical trends, a body-system selector and explained demonstration flags. A daily checklist supports a consistent routine. The browser saves manual entries locally and can download a JSON report containing provenance, rules and NASA references.
 
+Expandable signal explanations show the actual value, fictional reference, exact rule and suggested review. A readable HTML report includes the current observation, measurement context, notes, rule explanations and a history table. It can be printed or saved as PDF from the browser. The JSON export remains available separately.
+
 Three synthetic scenarios make the prototype easy to inspect: routine mission, sleep disruption and multiple changes. A scenario does not overwrite saved observations.
 
 ## Run locally
